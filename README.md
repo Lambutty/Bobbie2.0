@@ -62,4 +62,3 @@ currently only displaying the title and the image of the news
 > * all configs and the cookies should be outsourced to another platform for security and accessiblity reasons 
 > * since there is no generating of diagrams which i thought was required in the first place i probably should have used another framework or plain html,js,css.
 > * currently not deployed and running as a development server which is not recommended for production usage -> WSGI server instead
-> * currently all packages/modules are installed globally. Its definitely recommended to use virtual environment instead.
