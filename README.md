@@ -5,7 +5,7 @@
 **openFirefox** is a py script that provides automatic login with cookies. The cookies: cookiesHs.pkl and cookiesZabpkl have to be in the same folder.
 I ran in problems displaying Zabbix in IFrame on Chrome why im using Firefox -> **You have to have XFRAME Extension(https://addons.mozilla.org/de/firefox/addon/ignore-x-frame-options-header/) 
 for Firefox installed in order to see data from zabbix and the autologin script has to start its instance with that specific profil which has the extension installed. Also you need [geckodriver](https://github.com/mozilla/geckodriver/releases) installed which is firefox specific driver for selenium**.
-    You can change/setup your Path in the configSelenium.json which has to be in same folder as openFirefox. It needs the Path to geckodriver aswell as to the Profile with the installed xFrame extension already mentioned. You should have 80% percent zoom of the browser aswell to ensure the best experience and make everything of the diagrams visible inside the frame. 
+    You can change/setup your Path in the configSelenium.json which has to be in same folder as openFirefox. It needs the Path to geckodriver aswell as to the Profile with the installed xFrame extension already mentioned. You should have **80% percent zoom** of the browser aswell to ensure the best experience and make everything of the diagrams visible inside the frame. 
 ---
 
 Python 3.9.6 is recommended with following librarys
