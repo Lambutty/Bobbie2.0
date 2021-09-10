@@ -1,0 +1,175 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #F7F7F7;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+
+
+.wrapper {
+    margin:auto;
+}
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
+.menu-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #079A82;
+}
+
+.mb *{
+    width: 48vw;
+    height: 30vw;
+    
+    
+}
+
+
+.mb1{
+    width: 49vw;
+    
+}
+
+.ticker{
+    max-height: 3rem;
+    
+}
+
+div.ticker__element *{
+    font-size: 4rem;
+    max-height: 3rem;
+}
+
+
+.yCGfyN{
+    display:none !important;
+}
+
+.iframe.yeet *{
+    display:none !important;
+
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4vh;
+    
+}
+
+.bobbieimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4vh;
+    
+}
+
+.generalcardclass {
+    width: 47.2vw;
+    height: 43vh;
+    overflow : hidden;
+    position : relative;
+    margin:auto;
+    
+}
+
+.outerdiv {
+    width:100%;
+    height:100%;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    margin:auto;
+    display: inline-block;
+    overflow:hidden;
+    position:relative;
+    scrollbar-width: none;  /* Firefox */
+    
+    
+}
+
+.hubspot{
+    /* determines where the bottom of the page cuts off */
+   /* clipping top of page */
+    scrollbar-width: none;  /* Firefox */
+    
+    position:absolute;
+    pointer-events: None;
+    top:-20.9vh;
+    left:-2.5vw;
+    right:-5vw;
+    
+    width: 59vw;
+    height: 60.2vh;
+     /* Firefox */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+   
+      /* clipping top of page */
+    
+
+}
+
+.zabbix{
+    
+    
+    scrollbar-width: none;  /* Firefox */
+    
+    position:absolute;
+    pointer-events: None;
+    
+    top:-9.68vh;
+    left:-10vw;
+    
+    width: 60vw;
+    height: 60.2vh;
+     /* Firefox */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+.row{
+    margin-left: 1vw;
+    margin-bottom: 0.5vh;
+    margin-top: 0.4vh;
+}
+
+.weather-iframe{
+    pointer-events: None;
+}
+.outerdiv::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+.hubspot::-webkit-scrollbar {
+    display: none;
+  }
+
+.inlinecontainer{
+    display: inline-flex;
+}
+
