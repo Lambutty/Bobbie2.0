@@ -10,7 +10,7 @@ for Firefox installed in order to see data from zabbix and the autologin script 
 
 Python 3.9.6 is recommended with following librarys
 ```cmd
-pip install dash
+pip install dash 
 pip install dash-extensions
 pip install dash-bootstrap-components
 pip install requests
@@ -27,6 +27,7 @@ pip install APScheduler
 >* in assets you can set a favicon.ico displaying the icon of your application dash finds favicon.ico automatically
 >* data.json holds news from newsapi.org with the tag german. Every hour it gets 
 refreshed from pysript ScrapeNews if the server is running
+>* configSelenium.json contains the path to geckodriver.exe aswell as to you Firefox profile
 >* config.json:
 just paste the desired information in. Hubspot and Zabbix are respectively a List of the Dashboard URLS.
 Newsapi needs a Token, jousFix is your gmeet link. rainviewer is also link
